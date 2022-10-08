@@ -1,0 +1,53 @@
+body {
+    background-color: #000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#titulo {
+    color: rgb(230,230,230);
+    text-align: center;
+}
+
+#cont {
+    background-color: rgb(50,50,50);
+    border: 10px solid rgb(150,150,150);
+    border-radius: 10em;
+}
+
+#img {
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: 50px auto;
+    border: 3px solid rgb(0,0,0);
+}
+
+#descri_caja {
+    margin: 0 20px;
+    color: rgb(230,230,230);
+    background-color: #B81800;
+}
+
+#desc_txt {
+    padding: 20px;
+}
+
+.com_caja {
+    background-color: rgb(150,150,150);
+    margin: 15px;
+    border: 3px solid rgb(0,0,0);
+}
+
+.text {
+    text-align: center;
+    display: block;
+    background: rgb(0,0,0);
+}
+
+.env__input {
+    width: 260px;
+}
+
+.env__input::placeholder {
+    color: rgb(80,80,80);
+}
