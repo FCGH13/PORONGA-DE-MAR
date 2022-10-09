@@ -1,22 +1,24 @@
 body {
-    background-color: #000;
+    background-color: #111;
     font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
 }
 
 #titulo {
-    color: rgb(230,230,230);
+    color: rgb(240,240,240);
     text-align: center;
+    font-size: 60px;
 }
 
 #cont {
     background-color: rgb(50,50,50);
-    border: 10px solid rgb(150,150,150);
+    border: 10px solid rgb(110,110,110);
     border-radius: 10em;
 }
 
 #img {
-    height: 250px;
-    width: 250px;
+    height: 550;
+    width: 550px;
     display: block;
     margin: 50px auto;
     border: 3px solid rgb(0,0,0);
@@ -25,7 +27,8 @@ body {
 #descri_caja {
     margin: 0 20px;
     color: rgb(230,230,230);
-    background-color: #B81800;
+    background-color: rgb(50,50,53);
+    border: 2px solid #fff;
 }
 
 #desc_txt {
@@ -44,10 +47,28 @@ body {
     background: rgb(0,0,0);
 }
 
+.env {
+    border: none;
+    outline: none;
+}
+
 .env__input {
-    width: 260px;
+    outline: none;
+    border: none;
+    width: 90%;
 }
 
 .env__input::placeholder {
+    outline: none;
+    border: none;
     color: rgb(80,80,80);
+}
+
+.env__sub {
+    width: 9%;
+    background: t;
+}
+
+input {
+    background: #ddd;
 }
